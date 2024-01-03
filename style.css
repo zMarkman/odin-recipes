@@ -1,0 +1,51 @@
+/* style.css */
+
+img {
+    max-width: 80%;
+    height: auto;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+p {
+    max-width: 80%;
+    text-align: left;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: black;
+    font-size: larger;
+    padding: 50px;
+
+}
+
+/* colors chosen for color-blind accessibility: START */
+
+a:link, a:visited {
+    color: hotpink;
+
+}
+
+a:hover {
+    color: #1a85ff;
+    font-size: 110%;
+}
+
+a:active {
+    color: aqua;
+
+}
+
+/* colors chosen for color-blind accessibility: END */
+
+.footer {
+    text-align: left;
+    font-size: 90%;
+    padding-left: 90px;
+    padding-top: 400px;
+}
+
