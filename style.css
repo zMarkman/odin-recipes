@@ -19,7 +19,6 @@ body {
     color: white;
     background-color: black;
     font-size: larger;
-    padding: 50px;
 
 }
 
@@ -42,10 +41,33 @@ a:active {
 
 /* colors chosen for color-blind accessibility: END */
 
-.footer {
-    text-align: left;
+#footer {
+    text-align: center;
     font-size: 90%;
-    padding-left: 90px;
-    padding-top: 400px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
+/* || Index Page */
+
+.main-header {
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.index-list {
+    text-align: center;
+    list-style: none;
+    padding: 16px;
+
+}
+
+.index-item {
+    padding: 3px;
+}
